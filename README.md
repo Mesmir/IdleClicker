@@ -1,0 +1,2 @@
+# IdleClicker
+Idleclicker mini-project
