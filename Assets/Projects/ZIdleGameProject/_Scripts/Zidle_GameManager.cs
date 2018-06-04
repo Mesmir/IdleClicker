@@ -46,6 +46,9 @@ public class Zidle_GameManager : MonoBehaviour {
         omniPHealth += (int)result;
         ChangeHealth();
     }
+
+
+
     #region percentage calculations
     //50 * .25 = 12.5; 50 - 12.5;
     //healAmount * (armor / 100) = result; healamount - result;

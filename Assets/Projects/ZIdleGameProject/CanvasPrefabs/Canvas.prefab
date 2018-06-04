@@ -265,7 +265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1247556896487558
 GameObject:
   m_ObjectHideFlags: 1
@@ -789,7 +789,6 @@ GameObject:
   - component: {fileID: 224323948123013956}
   - component: {fileID: 222828307783844384}
   - component: {fileID: 114501274939992114}
-  - component: {fileID: 114745775482782140}
   - component: {fileID: 114789591961507992}
   - component: {fileID: 114109327581461390}
   m_Layer: 5
@@ -815,7 +814,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1691275941689428
 GameObject:
   m_ObjectHideFlags: 1
@@ -1385,7 +1384,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Fire
+        m_MethodName: UpgradeFire
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1429,7 +1428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114048596325483930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1462,7 +1461,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114062643492166612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1624,7 +1623,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114789591961507992}
-          m_MethodName: ClickFire
+          m_MethodName: Click
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1669,7 +1668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114114978647726348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1816,7 +1815,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114174860191103340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1857,7 +1856,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Earth
+        m_MethodName: UpgradeEarth
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1925,7 +1924,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Life
+        m_MethodName: UpgradeLife
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1977,7 +1976,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Metal
+        m_MethodName: UpgradeMetal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2050,7 +2049,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Water
+        m_MethodName: UpgradeWater
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2094,7 +2093,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114268650747726062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2241,7 +2240,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: hp
+  m_Text: 0
 --- !u!114 &114314688828110390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2508,7 +2507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Ups: 000'
+  m_Text: 'Upgrade Points: 0'
 --- !u!114 &114447662023218442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2783,7 +2782,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Amour
+  m_Text: 0.9
 --- !u!114 &114570506396290504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2969,7 +2968,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114668783262480740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3010,7 +3009,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Lightning
+        m_MethodName: UpgradeLightning
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3062,7 +3061,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114789591961507992}
-        m_MethodName: Air
+        m_MethodName: UpgradeAir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3194,31 +3193,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114745775482782140
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1677434159372550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29604f482bab40240ac2ba9a0867abb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ups: 0
-  omniPHealth: 0
-  targetHealth: 0
-  level: 0
-  upsTxt: {fileID: 114435907162723164}
-  healthTxt: {fileID: 114781324733898214}
-  healthCounter: {fileID: 114298337779076204}
-  healthTarget: {fileID: 114019335510501422}
-  armorTxt: {fileID: 114509920721098646}
-  levelText: {fileID: 114779556376165684}
-  targetHealthNerf: 0
-  result: 0
-  critResult: 0
-  critParent: {fileID: 224909239886999538}
 --- !u!114 &114759930657213864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3311,7 +3285,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: hp
+  m_Text: Health;
 --- !u!114 &114789591961507992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3323,26 +3297,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ff1473b828dd2439106ccd822f6905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleTarget: {fileID: 0}
-  fireDmg: 0
-  fireLvlCounter: {fileID: 114114245722761086}
-  airLevel: 0
-  airLvlCounter: {fileID: 114917369474129870}
-  waterLevel: 0
-  waterLvlCounter: {fileID: 114646989944188306}
-  earthShred: 0
-  earthLevel: 0
-  earthLvlCounter: {fileID: 114235886085919522}
-  lightningLevel: 0
-  lightningChance: 50
-  lightningLvlCounter: {fileID: 114048596325483930}
-  metalLevel: 0
-  metalDmg: 0
-  metalLvlCounter: {fileID: 114152589307952468}
-  lifeLevel: 0
-  lifeLvlCounter: {fileID: 114038321289019128}
-  timeLevel: 0
-  timeLvlCounter: {fileID: 114501704859246690}
+  center: {fileID: 0}
+  critParent: {fileID: 224909239886999538}
+  healthText: {fileID: 114298337779076204}
+  targetHealthText: {fileID: 114019335510501422}
+  upgradePointsTxt: {fileID: 114435907162723164}
+  armorText: {fileID: 114509920721098646}
+  levelText: {fileID: 114779556376165684}
+  targetHealth: 50
+  targetHealthLevelMultiplier: 0.3
+  upgradePoints: 3
+  armor: 0.8
+  fire:
+    keyBoundToElementalLevelling: q
+    level: 1
+    levelText: {fileID: 114114245722761086}
+    particleSystem: {fileID: 0}
+    damage: 8
+  air:
+    keyBoundToElementalLevelling: w
+    level: 1
+    levelText: {fileID: 114917369474129870}
+    particleSystem: {fileID: 0}
+    damage: 5
+  water:
+    keyBoundToElementalLevelling: e
+    level: 1
+    levelText: {fileID: 114646989944188306}
+    refreshRate: 3
+  earth:
+    keyBoundToElementalLevelling: r
+    level: 1
+    levelText: {fileID: 114235886085919522}
+    percentage: 0.02
+    maxReduction: 0.7
+  lightning:
+    keyBoundToElementalLevelling: t
+    level: 1
+    levelText: {fileID: 114048596325483930}
+    percentage: 0.815
+    percentage2: 0.944
+  metal:
+    keyBoundToElementalLevelling: y
+    level: 1
+    levelText: {fileID: 114152589307952468}
+    percentage: 0.708
+  life:
+    keyBoundToElementalLevelling: u
+    level: 1
+    levelText: {fileID: 114038321289019128}
+    percentage: 0.09
+    maxReduction: 0.545
 --- !u!114 &114789697142466058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3609,7 +3614,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!114 &114923027450157804
 MonoBehaviour:
   m_ObjectHideFlags: 1
