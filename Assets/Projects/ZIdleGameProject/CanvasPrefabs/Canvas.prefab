@@ -3335,13 +3335,13 @@ MonoBehaviour:
     keyBoundToElementalLevelling: t
     level: 1
     levelText: {fileID: 114048596325483930}
-    percentage: 0.815
-    percentage2: 0.944
+    percentage: 0.1
+    percentage2: 0.2
   metal:
     keyBoundToElementalLevelling: y
     level: 1
     levelText: {fileID: 114152589307952468}
-    percentage: 0.708
+    percentage: 0.5
   life:
     keyBoundToElementalLevelling: u
     level: 1

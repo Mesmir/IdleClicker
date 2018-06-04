@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Projects/ZIdleGameProject/Scene/ZidleGameProj.unity
+    guid: 4928b6470ac3e2447ad8ce04f6d35644
+  m_configObjects: {}
